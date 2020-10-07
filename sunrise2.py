@@ -13,7 +13,11 @@ def interpolate_colors(t, color1, color2):
 def color_value(color):
   """Convert a color name to an (r,g,b) tuple."""
   return Color(color).getColorValue()
-
+    
+  
+  
+  
+ 
 def animate_sunrise(sun, morning_sun, noon_sun, morning_sky, noon_sky):
   morning_color = color_value(morning_sun)
   noon_color = color_value(noon_sun)
